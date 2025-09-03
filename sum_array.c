@@ -1,22 +1,16 @@
 #include <stdio.h>
 
-/**
- * @brief This program calculates the sum of all elements in an integer array.
- *
- * It initializes an integer array with predefined values, then iterates through
- * the array to add each element to a running total. Finally, it prints the
- * total sum to the console.
- */
+Tai Bradley
+/*
+This code provides a summation of everything in the numbers array.
+*/
 int main(void) {
-    // Declare and initialize an integer array with sample values.
+    // Initialize array
     int numbers[] = {10, 20, 30, 40, 50};
     
-    // Calculate the number of elements in the array.
-    // This makes the loop dynamic and works for any array size.
     int array_size = sizeof(numbers) / sizeof(numbers[0]);
     
-    // Initialize a variable to store the sum.
-    // It is good practice to initialize variables to 0 to avoid garbage values.
+    // Initialize a variable to store the sum
     int sum = 0;
     
     // Loop through each element of the array.
